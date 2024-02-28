@@ -1,0 +1,17 @@
+/* Estilos Globais */
+html{
+    height: 100vh;
+}
+
+body{
+    background-color:#1c0c3f;
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+@media screen and (min-width:992px) {
+    body{
+        font-size: 28px;
+    }
+}
