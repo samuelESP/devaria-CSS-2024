@@ -1,1 +1,19 @@
 /* Estilos do rodapé */
+
+footer{
+    text-align: center;
+    border-top: 1px solid #f0f5ff;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+
+footer section span:first-child{/*  Primeiro Elemento  */
+    color: #5e49ff;
+}
+
+footer section span{
+    color: #3bd42e;
+}
