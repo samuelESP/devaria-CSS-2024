@@ -1,5 +1,38 @@
 /* Estilos da página Index */
 
+main{
+    text-align: center;
+}
+
+main h3.title{
+    font-size: 1em;
+}
 .cover-container figure img{
     width: 100%;
+}
+
+main section abbr{
+    color: #25cbd3;
+}
+
+@media screen and (min-width:992px) {
+
+    .cover-container figure img{
+        width: 40%;
+    }
+    .cover-container, .section-video{
+        display: inline-block;
+        width: 320px;
+    }
+    .cover-container figure img{
+        width: 70%;
+    }
+    .cover-container figure figcaption{
+        font-size: 10px;
+    }
+    .section-azure{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
 }
