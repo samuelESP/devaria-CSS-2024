@@ -1,0 +1,30 @@
+/* Pagina de estilização Professores */
+
+.content-container{
+    padding: 20px;
+}
+
+.content-container h2.title{
+    font-size: 1.5em;
+}
+
+.content-container>div img{
+    width: 98%;
+    border-radius: 20px;
+    margin: 10px 0;
+    border: 5px double;
+}
+
+h2.title{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 992px) {
+    .content-container > div img{
+        width: 40%;
+    }
+    article p{
+        margin: auto;
+    }
+}
